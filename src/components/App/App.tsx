@@ -40,7 +40,7 @@ export default function App(): JSX.Element {
 
   return (
     <>
-      <Toaster position="top-right" />
+      <Toaster position="top-center" />
 
       <SearchBar onSubmit={handleSearch} />
 
