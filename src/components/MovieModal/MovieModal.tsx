@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { getImageUrl } from '../services/imageUrl';
+import { getImageUrl } from '../../services/imageUrl';
 import type { Movie } from '../../types/movie';
 import css from './MovieModal.module.css';
 import { createPortal } from 'react-dom';
